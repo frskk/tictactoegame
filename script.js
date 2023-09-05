@@ -106,7 +106,7 @@ function updateScores() {
 }
 
 function playerWon() {
-  infoText.innerHTML = `${pastPlayer} won! ${nextPlayer} sucks`;
+  infoText.innerHTML = `${pastPlayer} won this round!`;
   playerHasWon = true;
   continueGame();
 }
@@ -133,7 +133,7 @@ function checkForTie() {
   });
 
   if (allSquaresFilled && !playerHasWon) {
-    infoText.innerHTML = "It's a tie! You both suck";
+    infoText.innerHTML = "It's a tie! You both clueless";
     continueGame();
   }
 }
