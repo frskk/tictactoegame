@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Tic Tac Toe</title>
+    <title>tictactoeunlimited</title>
   </head>
   <body>
     <div id="info">
-      <h2 id="info__title">TIC-TAC-TOE UNLIMITED</h2>
+      <h2 id="info__title">TICTACTOE UNLIMITED</h2>
       <div class="info__player">
         <img
           src="assets/cross.png"
@@ -44,7 +44,7 @@
       <div id="grid__square-9" class="grid__square"></div>
     </div>
     <div id="instructions">
-      <h2 id="instructions__text">Click to start the game ;)</h2>
+      <h2 id="instructions__text">Click Start and enter players name. Heads up this is not an online game so bring a friend over ;)</h2>
       <button id="instructions__btn">Start</button>
     </div>
     <div id="modal">
@@ -56,8 +56,8 @@
             type="text"
             id="player1"
             name="player1"
-            placeholder="Player 1"
-            maxlength="6"
+            placeholder="Enter Player 1"
+            maxlength="8"
             required
           />
           <label for="player2">Player 2</label>
@@ -65,8 +65,8 @@
             type="text"
             id="player2"
             name="player2"
-            placeholder="Player 2"
-            maxlength="6"
+            placeholder="Enter Player 2"
+            maxlength="8"
             required
           />
           <input type="submit" value="Start Game" />
